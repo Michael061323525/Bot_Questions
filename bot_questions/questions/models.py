@@ -9,3 +9,7 @@ class Question(models.Model):
 
     def __str__(self):
         return self.content
+
+    class Meta:
+        verbose_name = "Вопрос пользователя"
+        verbose_name_plural = "Вопросы пользователя"
